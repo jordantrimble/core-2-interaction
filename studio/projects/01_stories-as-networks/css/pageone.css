@@ -1,0 +1,17 @@
+p{
+    margin-top: 340px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+@media (max-width: 900px){
+    html{
+        font-size: small;
+    }
+}
+
+a:visited{
+    color: rgb(0, 0, 0);
+}
