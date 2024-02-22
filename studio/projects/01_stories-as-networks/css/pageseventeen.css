@@ -1,8 +1,9 @@
 p{
+    margin-top: 335px;
+    margin-left: 5%;
+    margin-right: 5%;
     font-family: 'Courier New', Courier, monospace;
-    margin-left: 15px;
-    margin-top: 20px;
-    
+    text-align: center;
 }
 
 @media (max-width: 900px){
@@ -12,9 +13,5 @@ p{
 }
 
 a:visited{
-    color: black;
-}
-
-.p2{
-    font-size: 25px;
+    color: rgb(0, 0, 0);
 }

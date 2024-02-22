@@ -1,7 +1,13 @@
+html{
+    background-color: black;
+    color: white;
+}
+
 p{
     font-family: 'Courier New', Courier, monospace;
     margin-left: 15px;
     margin-top: 20px;
+    
     
 }
 
@@ -12,9 +18,5 @@ p{
 }
 
 a:visited{
-    color: black;
-}
-
-.p2{
-    font-size: 25px;
+    color: rgb(255, 255, 255);
 }

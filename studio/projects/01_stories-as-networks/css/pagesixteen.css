@@ -5,6 +5,19 @@ p{
     
 }
 
+.p1{
+    margin-top: 180px;
+}
+
+.p2{
+    margin-top: 10px;
+}
+
+html{
+    background-color: black;
+    color: white;
+}
+
 @media (max-width: 900px){
     html{
         font-size: medium;
@@ -12,9 +25,5 @@ p{
 }
 
 a:visited{
-    color: black;
-}
-
-.p2{
-    font-size: 25px;
+    color: white;
 }
