@@ -1,11 +1,13 @@
 p{
     font-family: 'Courier New', Courier, monospace;
+    margin-left: 15px;
+    margin-top: 20px;
     
 }
 
 @media (max-width: 900px){
     html{
-        font-size: small;
+        font-size: medium;
     }
 }
 

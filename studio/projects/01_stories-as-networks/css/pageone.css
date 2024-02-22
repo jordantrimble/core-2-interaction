@@ -1,5 +1,5 @@
 p{
-    margin-top: 340px;
+    margin-top: 345px;
     margin-left: 5%;
     margin-right: 5%;
     font-family: 'Courier New', Courier, monospace;
@@ -8,7 +8,7 @@ p{
 
 @media (max-width: 900px){
     html{
-        font-size: small;
+        font-size: medium;
     }
 }
 

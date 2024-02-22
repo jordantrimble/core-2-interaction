@@ -8,6 +8,7 @@ body{
     margin-top: 340px;
     font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
+    font-size: x-large;
     
 }
 
@@ -20,7 +21,7 @@ p{
 
 h1{
     margin-top: 300px;
-    font-size: medium;
+    font-size: smaller;
     font-family: 'Courier New', Courier, monospace;
 }
   
