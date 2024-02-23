@@ -1,0 +1,75 @@
+html{
+  background-color: black;
+  color: white;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 15px;
+    margin-top: 20px;
+    
+    
+}
+
+@media (max-width: 900px){
+    html{
+        font-size: medium;
+    }
+}
+
+a:visited{
+    color: rgb(255, 255, 255);
+}
+
+.p2{
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+
+}
+
+#scroll-container {
+    overflow: hidden;
+  }
+  
+  #scroll-text {
+    height: 650px;
+    text-align: center;
+    
+    /* animation properties */
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    
+    -moz-animation: my-animation 60s linear infinite;
+    -webkit-animation: my-animation 60s linear infinite;
+    animation: my-animation 60s linear infinite;
+  }
+  
+  /* for Firefox */
+  @-moz-keyframes my-animation {
+    from { -moz-transform: translateY(100%); }
+    to { -moz-transform: translateY(-100%); }
+  }
+  
+  /* for Chrome */
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateY(100%); }
+    to { -webkit-transform: translateY(-100%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateY(100%);
+      -webkit-transform: translateY(100%);
+      transform: translateY(100%);
+    }
+    to {
+      -moz-transform: translateY(-100%);
+      -webkit-transform: translateY(-100%);
+      transform: translateY(-100%);
+    }
+  }

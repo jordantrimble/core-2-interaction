@@ -1,0 +1,29 @@
+p{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 15px;
+    margin-top: 20px;
+    
+}
+
+.p1{
+    margin-top: 180px;
+}
+
+.p2{
+    margin-top: 10px;
+}
+
+html{
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 900px){
+    html{
+        font-size: medium;
+    }
+}
+
+a:visited{
+    color: white;
+}
