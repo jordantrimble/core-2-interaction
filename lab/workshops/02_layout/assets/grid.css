@@ -1,0 +1,44 @@
+/*Main*/
+.Main{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+/*group*/
+.Group{
+    background-color: rgb(215, 255, 215);
+    border: 1px solid rgb(255, 201, 240);
+    padding: 10px;
+
+    /*grid*/
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.GroupThree{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+/*classmate*/
+.Classmate{
+    background-color: rgb(168, 235, 177);
+    border: 1px solid rgb(255, 201, 240);
+    color: rgb(106, 44, 106);
+    padding: 10px;
+}
+
+#Jordan{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
