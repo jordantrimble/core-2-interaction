@@ -1,0 +1,85 @@
+/*
+  Coding from Life – Sketch 2: fluid layout
+
+  For sketch 2 you'll be positioning elements relative to a fluid container. This
+  means you'll need to use percentages when positioning and sizingelements within
+  your frame.
+*/
+
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 95vw;
+  height: 57vw;
+  background: white;
+  margin: 2.5vw auto;
+  position: relative;
+}
+
+/* Your CSS goes here */
+
+.computer{
+  width: 30vw;
+  height: 20vw;
+  background: rgb(229, 231, 231);
+  position: absolute;
+  z-index: 8;
+  top: 40%;
+  left: 35%;
+  
+}
+
+.screen{
+  width: 28vw;
+  height: 18vw;
+  background-image: linear-gradient(rgb(210, 233, 251), rgb(246, 187, 244));
+  position:absolute;
+  z-index: 9;
+  top: 42%;
+  left: 36%;
+  
+}
+
+.keyboard{
+  width: 33vw;
+  height: 5vw;
+  background-color: rgb(229, 231, 231);
+  position: absolute;
+  z-index: 8;
+  top: 75%;
+  left: 33.4%;
+}
+
+.bottle{
+  width: 7vw;
+  height: 20vw;
+  background-color: rgb(249, 222, 249);
+  position: absolute;
+  top: 55%;
+  left: 70%;
+  z-index: 4;
+
+}
+
+.bottle-neck{
+  width: 3vw;
+  height: 6vw;
+  background-color: rgb(249, 222, 249);
+  position: absolute;
+  top: 45%;
+  left: 72%;
+  z-index: 5;
+}
+
+.cork{
+  width: 2vw;
+  height: 2.5vw;
+  background-color: rgb(177, 136, 96);
+  position: absolute;
+  top: 40.6%;
+  left: 72.5%;
+  z-index: 6;
+}
