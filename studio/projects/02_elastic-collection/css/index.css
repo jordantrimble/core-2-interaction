@@ -96,3 +96,27 @@ main {
     align-items: center;
   }
 
+  .imageBox {
+    position: relative;
+    float: left;
+    height: 400;
+    width: 400;
+  }
+  
+  .imageBox .hoverImg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    height: 400;
+    width: 400;
+  }
+  
+  .imageBox:hover .hoverImg {
+    display: block;
+    height: 400;
+    width: 400;
+    margin-left: 10%;
+    margin-bottom: 80%;
+  }
+
