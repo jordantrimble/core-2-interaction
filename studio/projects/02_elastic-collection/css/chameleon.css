@@ -1,6 +1,6 @@
 html {
-    cursor: url('/studio/projects/02_elastic-collection/picsforcollection/favicon.ico'), url('/studio/projects/02_elastic-collection/picsforcollection/favicon.ico'), 
-            url('/studio/projects/02_elastic-collection/picsforcollection/favicon.ico'), auto;
+    cursor: url('/studio/projects/02_elastic-collection/picsforcollection/cham.ico'), url('/studio/projects/02_elastic-collection/picsforcollection/cham.ico'), 
+            url('/studio/projects/02_elastic-collection/picsforcollection/cham.ico'), auto;
   }
 
   img{
@@ -28,9 +28,11 @@ html {
 
 p{
     margin-right: 5%;
-    margin-left: 40%;
+    margin-left: 43%;
     line-height: 1.3;
-    font-size: 18px;
+    font-size: 20px;
+    position:absolute;
+    margin-top: 7%;
 
 }
 
