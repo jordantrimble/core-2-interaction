@@ -1,0 +1,17 @@
+html{
+    height: 100%;
+  background-color: rgb(172, 207, 255); /* For browsers that do not support gradients */
+  background-image: linear-gradient(rgb(172, 207, 255), rgb(255, 98, 0));
+  }
+
+.period{
+    color: rgb(255, 217, 82);
+    font-size: 150px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    left: 42%;
+    right: 42%;
+  
+}
