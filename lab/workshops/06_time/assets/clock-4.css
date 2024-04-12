@@ -1,7 +1,7 @@
 html{
     height: 100%;
   background-color: rgb(172, 207, 255); /* For browsers that do not support gradients */
-  background-image: linear-gradient(rgb(172, 207, 255), rgb(255, 98, 0));
+  background-image: linear-gradient( rgb(255, 98, 0),rgb(172, 207, 255));
   }
 
 .period{
