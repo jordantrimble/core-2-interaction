@@ -1,0 +1,25 @@
+html{
+    background-color: aliceblue;
+}
+
+.p{
+    color: pink;
+    font-size: 20px;
+}
+
+h1{
+    color: rgb(208, 192, 255);
+    font-size: 50px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+h2{
+    color: rgb(0, 24, 65);
+    font-size: 30px;
+}
+
+.h22{
+    color: pink;
+    font-size: 30px;
+}

@@ -1,0 +1,28 @@
+h1, h2, p{
+    margin: 0;
+}
+
+body{
+    max-width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.MainHeader{
+    text-align: center;
+    
+    font-size: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.Part{
+    background-color: rgb(225, 239, 255);
+    padding: 10px;
+    margin: 50px 0px 50px 0px;
+    border: 1px solid rgb(19, 21, 139);
+}
+
+img{
+    margin-top: 10px;
+}
