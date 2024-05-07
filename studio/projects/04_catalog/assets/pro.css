@@ -1,3 +1,7 @@
+html{
+    background-color: rgb(246, 251, 255);
+}
+
 body{
     max-width: 80%;
     margin-left: 10%;
@@ -9,13 +13,15 @@ body{
     font-size: 30px;
     margin-top: 5%;
     margin-bottom: 5%;
+    color: #0e126f;
 }
 
 .Part{
-    background-color: rgb(225, 239, 255);
+    background-color: rgb(211, 232, 255);
     padding: 10px;
     margin: 50px 0px 50px 0px;
     border: 1px solid rgb(19, 21, 139);
+    color: #0e126f;
 }
 
 img{

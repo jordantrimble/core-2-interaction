@@ -3,23 +3,29 @@ html{
 }
 
 .p{
-    color: pink;
     font-size: 20px;
+    margin-bottom: 7%;
+    color: rgb(255, 82, 212);
 }
 
 h1{
-    color: rgb(208, 192, 255);
-    font-size: 50px;
+    font-size: 90px;
     margin-left: 2%;
     margin-right: 2%;
+    margin-bottom: 1%;
+    color: #090059;
 }
 
 h2{
-    color: rgb(0, 24, 65);
-    font-size: 30px;
+    margin-bottom: 5%;
+}
+.stu{
+    color: rgb(29, 0, 171);
+    font-size: 80px;
 }
 
 .h22{
-    color: pink;
-    font-size: 30px;
+    color: rgb(255, 82, 212);
+    font-size: 80px;
+
 }

@@ -1,3 +1,7 @@
+html{
+    background-color: rgb(255, 235, 250);
+}
+
 body{
     max-width: 80%;
     margin-left: 10%;
@@ -9,13 +13,16 @@ body{
     font-size: 30px;
     margin-top: 5%;
     margin-bottom: 5%;
+    color: rgb(252, 40, 189);
 }
 
 .Part{
-    background-color: rgb(225, 239, 255);
+    background-color: rgb(255, 225, 254);
     padding: 10px;
     margin: 50px 0px 50px 0px;
-    border: 1px solid rgb(19, 21, 139);
+    border: 1px solid rgb(139, 19, 89);
+    color: rgb(252, 40, 189);
+
 }
 
 img{
