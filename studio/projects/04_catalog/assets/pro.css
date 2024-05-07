@@ -1,16 +1,11 @@
-h1, h2, p{
-    margin: 0;
-}
-
 body{
-    max-width: 100%;
-    margin-left: 2%;
-    margin-right: 2%;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .MainHeader{
     text-align: center;
-    
     font-size: 30px;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -25,4 +20,5 @@ body{
 
 img{
     margin-top: 10px;
+    width: 100%;
 }
