@@ -1,0 +1,108 @@
+:root {
+    --color-left: rgb(234, 238, 241);
+    --color-right: #000000;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: var(--color-right);
+    color: var(--color-left);
+  }
+  
+  .background {   
+    background-color: var(--color-left);
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    width: 70%;
+  }
+  
+  h1{
+    text-align: center;
+    font-size: 70px;
+    margin-top: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: "IM Fell DW Pica", serif;
+    
+}
+
+h2{
+    text-align: center;
+    font-size: 60px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: "IM Fell DW Pica", serif;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5%;
+    font-family: "IM Fell DW Pica", serif;
+}
+
+
+.par{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top: 20%;
+    font-family: "IM Fell DW Pica", serif;
+}
+
+.par2{
+    font-size: 20px;
+    text-align: center;
+    font-family: "IM Fell DW Pica", serif;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.p2{
+    font-size: 25px;
+    text-align: center;
+    font-family: "IM Fell DW Pica", serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+.flexer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    font-size: 20px;
+    font-family: "IM Fell DW Pica", serif;
+
+}
+
+.wordColumn{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 20px;
+    font-family: "IM Fell DW Pica", serif;
+    width: 30%;
+    margin-left: 3%;
+    margin-right: 3%;
+    line-height: 155%;
+
+}
+
+img{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+  
+  .text-wrapper {
+     mix-blend-mode: difference;
+    text-align: center;
+  }
