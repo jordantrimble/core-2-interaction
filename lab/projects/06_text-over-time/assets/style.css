@@ -1,0 +1,23 @@
+html{
+    background-color: rgb(1, 1, 28);
+}
+
+h1{
+    text-align: center;
+    font-size: 70px;
+    margin-top: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: "IM Fell DW Pica", serif;
+    color: rgb(229, 232, 239);
+    
+}
+
+h2{
+    text-align: center;
+    font-size: 60px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: "IM Fell DW Pica", serif;
+    color: rgb(229, 232, 239);
+}
