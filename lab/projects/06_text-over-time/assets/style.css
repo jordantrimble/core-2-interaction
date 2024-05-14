@@ -33,6 +33,14 @@ h2{
     font-family: "IM Fell DW Pica", serif;
 }
 
+p{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  font-family: "IM Fell DW Pica", serif;
+  font-size: 30px;
+}
+
 
   
   li {
